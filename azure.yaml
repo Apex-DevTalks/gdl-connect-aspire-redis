@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: x_aspire-starter-redis
+services:  
+  app:
+    language: dotnet
+    project: .\Guadalajara.Connect.AppHost\Guadalajara.Connect.AppHost.csproj
+    host: containerapp
